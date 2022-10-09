@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    font-family: Nunito, sans-serif;
+    font-size: 20px;
+    background: url(./background-img.png);
+}
+
+h1, h2 {
+    margin: 20px;
+    text-align: center;
+    color: white;
+}
+
+main {
+    padding: 60px 0;
+}
+
+li {
+    display: inline;
+    padding: 0px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+a {
+    color: white;
+}
+
+header, footer {
+    height: 60px;
+    width: 100px;
+    line-height: 60px;
+    background-color: #d3cbd0;
+}
+
+header {
+    position: fixed;
+    border-bottom: 5px solid white;
+}
+
+figcaption {
+    color: white;
+}
+
+footer {
+    position: absolute;
+    margin-top: 0;
+    bottom: 0;
+    border-bottom: 5px solid white;
+    color: white;
+    display: 
+}
+
+figure {
+    margin: 40px;
+    text-align: center;
+}
+
+img {
+    margin: 20px auto;
+    border-radius: 20px;
+    border: 3px solid white;
+}
+
+section {
+    margin-bottom: 0;
+    padding: 20px 10px 40px 10px;
+    border-top: 3px solid white;
+}
+
+form {
+    margin: 0 auto;
+    width: 300px;
+    padding: 10px;
+    border: 3px solid white;
+    border-radius: 20px;
+}
+
+label {
+    display: block;
+    width: 20px;
+}
+
+input, textarea {
+    box-sizing: border-box;
+    width: 300px;
+    border: 1px solid black;
+    display: block;
+}
+
+textarea {
+    vertical-align: top;
+    height: 60px;
+}
+
+button {
+    height: 40px;
+    width: 120px;
+    background-color: #d3cbd0;
+    color: white;
+    font-family: Nunito;
+    border-radius: 10px;
+}
+
+
+
